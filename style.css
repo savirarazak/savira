@@ -83,3 +83,9 @@ footer p {
   margin: 0;
   font-size: 0.9rem;
 }
+@media (max-width: 768px) {
+  .logo {
+    width: 120px; /* Ukuran logo lebih kecil di perangkat mobile */
+  }
+}
+
