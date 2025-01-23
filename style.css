@@ -89,3 +89,39 @@ footer p {
   }
 }
 
+/* Galeri Foto */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery figure {
+    margin: 0;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    transition: transform 0.3s ease;
+}
+
+.gallery figure:hover {
+    transform: scale(1.05);
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery figcaption {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #555;
+    background: #f8f8f8;
+}
